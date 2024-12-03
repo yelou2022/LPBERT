@@ -17,5 +17,5 @@
 ## About self built datasets
 In the process of constructing the dataset, tools similar to CD-HIT were not used, but we can confirm that the protein pair data sample is unique, and a protein pair data will not appear repeatedly in multiple datasets. The data distribution is as follows:
 * **Training set**: [protein A, protein B, label], **validation set**: [protein A, protein C, label], **test set**: [protein A, protein D, label] (**√**)
-* **Training set**: [protein A, protein B, label], **validation set**: [protein A, protein B, label], <span style="color: red;">or</span> **test set**: [protein A, protein B, label] (**×**)
+* **Training set**: [protein A, protein B, label], **validation set**: [protein A, protein B, label], $${\color{red}or}$$ **test set**: [protein A, protein B, label] (**×**)
 Protein A may appear multiple times in the dataset, but protein A and B cannot appear repeatedly.
