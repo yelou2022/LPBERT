@@ -8,6 +8,7 @@
 
 ## Directory Structure
 * **data**: Contains datasets collected from other papers and self built datasets
+* **similarity**: Contains data and code for model sequence similarity analysis
 * **environment_test.py**: ProteinBERT environment test file. Please note that the environment configuration is successful only when there are no errors when running this file.
 * **encode.py**:  Obtaining global and local representations of protein sequences from ProteinBERT
 * **train.py**: Training files for LPBERT
